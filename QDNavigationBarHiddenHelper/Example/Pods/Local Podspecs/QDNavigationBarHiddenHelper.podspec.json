@@ -1,0 +1,22 @@
+{
+  "name": "QDNavigationBarHiddenHelper",
+  "version": "0.1.0",
+  "summary": "A short description of QDNavigationBarHiddenHelper.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sinno93/QDNavigationBarHiddenHelper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sinno93": "sinno93@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/sinno93/QDNavigationBarHiddenHelper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QDNavigationBarHiddenHelper/Classes/**/*"
+}

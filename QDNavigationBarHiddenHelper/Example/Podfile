@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'QDNavigationBarHiddenHelper_Example' do
+  pod 'QDNavigationBarHiddenHelper', :path => '../'
+
+  target 'QDNavigationBarHiddenHelper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

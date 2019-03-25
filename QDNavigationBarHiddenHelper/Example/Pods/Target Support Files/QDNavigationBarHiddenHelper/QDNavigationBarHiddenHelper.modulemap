@@ -1,0 +1,6 @@
+framework module QDNavigationBarHiddenHelper {
+  umbrella header "QDNavigationBarHiddenHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}
