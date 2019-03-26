@@ -7,12 +7,19 @@
 //
 
 #import "QDAppDelegate.h"
+#import "QDViewController.h"
 
 @implementation QDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] init];
+    self.window.backgroundColor = UIColor.grayColor;
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:[[QDViewController alloc] init]];
+    self.window.rootViewController = navController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

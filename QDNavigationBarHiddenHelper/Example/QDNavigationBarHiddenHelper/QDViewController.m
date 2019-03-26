@@ -7,24 +7,33 @@
 //
 
 #import "QDViewController.h"
-
+#import <QDNavigationBarHiddenHelper/QDNavigationBarHiddenHelper-umbrella.h>
 @interface QDViewController ()
+
 
 @end
 
 @implementation QDViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationController.qd_navigationBarHiddenHelperEnabled = YES;
     self.title = @"导航栏";
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+#pragma mark - Action
+
+- (IBAction)pushToControllerWithNavigationBarAction:(id)sender {
+    UIViewController *controller = [[QDViewController alloc] init];
+    controller.qd_navigationBarHidden = NO;
+    [self.navigationController pushViewController:controller animated:YES];
+}
+
+- (IBAction)pushToControllerWithoutNavigationBarAction:(id)sender {
+    UIViewController *controller = [[QDViewController alloc] init];
+    controller.qd_navigationBarHidden = YES;
+    [self.navigationController pushViewController:controller animated:YES];
 }
 
 @end

@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "QDNavigationControllerDelegate.h"
+#import "UINavigationController+QDNavigationBarHidden.h"
+#import "UIViewController+QDNavigationBarHidden.h"
 
 FOUNDATION_EXPORT double QDNavigationBarHiddenHelperVersionNumber;
 FOUNDATION_EXPORT const unsigned char QDNavigationBarHiddenHelperVersionString[];

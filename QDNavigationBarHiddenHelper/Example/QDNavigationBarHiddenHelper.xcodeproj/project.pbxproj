@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1DB05ED1F20179C6305C0481 /* Pods_QDNavigationBarHiddenHelper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F960F7B10D996269FE578A6 /* Pods_QDNavigationBarHiddenHelper_Example.framework */; };
+		4140332C22494B0500EC3D89 /* QDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4140332B22494B0500EC3D89 /* QDViewController.xib */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,7 +40,8 @@
 /* Begin PBXFileReference section */
 		1F960F7B10D996269FE578A6 /* Pods_QDNavigationBarHiddenHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QDNavigationBarHiddenHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		25AE9A6AE99E1BBBE0B656A5 /* Pods-QDNavigationBarHiddenHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QDNavigationBarHiddenHelper_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-QDNavigationBarHiddenHelper_Example/Pods-QDNavigationBarHiddenHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
-		29381409441954143A72B703 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		29381409441954143A72B703 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4140332B22494B0500EC3D89 /* QDViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDViewController.xib; sourceTree = "<group>"; };
 		546169311E983FEAEBD97713 /* Pods-QDNavigationBarHiddenHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QDNavigationBarHiddenHelper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QDNavigationBarHiddenHelper_Example/Pods-QDNavigationBarHiddenHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* QDNavigationBarHiddenHelper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QDNavigationBarHiddenHelper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,9 +64,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CA302D18D41247DE9EEAAB79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CA302D18D41247DE9EEAAB79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CFF32D81D326A4DFAE50A5A4 /* Pods-QDNavigationBarHiddenHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QDNavigationBarHiddenHelper_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QDNavigationBarHiddenHelper_Tests/Pods-QDNavigationBarHiddenHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E1BA9B3495CEA6815832A8AA /* QDNavigationBarHiddenHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QDNavigationBarHiddenHelper.podspec; path = ../QDNavigationBarHiddenHelper.podspec; sourceTree = "<group>"; };
+		E1BA9B3495CEA6815832A8AA /* QDNavigationBarHiddenHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QDNavigationBarHiddenHelper.podspec; path = ../QDNavigationBarHiddenHelper.podspec; sourceTree = "<group>"; };
 		E597B4148EA9A41DCF779D0A /* Pods_QDNavigationBarHiddenHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QDNavigationBarHiddenHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0D3E4631F6823C87B50F5C3 /* Pods-QDNavigationBarHiddenHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QDNavigationBarHiddenHelper_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QDNavigationBarHiddenHelper_Tests/Pods-QDNavigationBarHiddenHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -148,6 +150,7 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* QDViewController.h */,
 				6003F5A6195388D20070C39A /* QDViewController.m */,
+				4140332B22494B0500EC3D89 /* QDViewController.xib */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -247,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = sinno93;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = SF92GY4C42;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -276,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4140332C22494B0500EC3D89 /* QDViewController.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
@@ -497,6 +504,7 @@
 			baseConfigurationReference = 546169311E983FEAEBD97713 /* Pods-QDNavigationBarHiddenHelper_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SF92GY4C42;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QDNavigationBarHiddenHelper/QDNavigationBarHiddenHelper-Prefix.pch";
 				INFOPLIST_FILE = "QDNavigationBarHiddenHelper/QDNavigationBarHiddenHelper-Info.plist";
@@ -512,6 +520,7 @@
 			baseConfigurationReference = 25AE9A6AE99E1BBBE0B656A5 /* Pods-QDNavigationBarHiddenHelper_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SF92GY4C42;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "QDNavigationBarHiddenHelper/QDNavigationBarHiddenHelper-Prefix.pch";
 				INFOPLIST_FILE = "QDNavigationBarHiddenHelper/QDNavigationBarHiddenHelper-Info.plist";

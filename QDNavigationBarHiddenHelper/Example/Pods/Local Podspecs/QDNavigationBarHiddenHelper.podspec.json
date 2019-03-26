@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "QDNavigationBarHiddenHelper/Classes/**/*"
+  "source_files": "QDNavigationBarHiddenHelper/Classes/**/*",
+  "requires_arc": true,
+  "frameworks": "UIKit",
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-all_load"
+  }
 }

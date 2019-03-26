@@ -7,16 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BC6032C849673B432084C896550E4E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		15EAA07F6D41CAC980A71DF6222699AF /* QDNavigationBarHiddenHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57FF783DBB2442BD42CD28992F9836DB /* QDNavigationBarHiddenHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		299AD6AE26E61C6E1099A7C622D3532D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E1A239DF22D4565EFF9F30F1320007 /* ReplaceMe.m */; };
+		0BC8DA8AD3093A09C8153DF8EDDBFFEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E404AA6957590324067E330E0EC533 /* UIKit.framework */; };
+		16A3375DB7E6B8F53FF466FC3A4AB84D /* UINavigationController+QDNavigationBarHidden.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D6B48AAAD6EF1553E9E33B24B2C3C1 /* UINavigationController+QDNavigationBarHidden.m */; };
+		40E8CD072318DE2E3616CEDB633844BB /* QDNavigationControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E91AC83F50959104097C19E029D3B6 /* QDNavigationControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		435324194266A53E327606D56A099E66 /* Pods-QDNavigationBarHiddenHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0BCED61279E0158F80B7EE26B368A4 /* Pods-QDNavigationBarHiddenHelper_Example-dummy.m */; };
+		4D5C2BA9342615D7E35FB5EDDBBE2F5D /* QDNavigationBarHiddenHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BA03A00EE572DE7545487A9777625F6 /* QDNavigationBarHiddenHelper-dummy.m */; };
+		56EE190560928F35FEC95A7314289E19 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4D0EA9FC4E08A6A9BB5C35DEC05F09 /* ReplaceMe.m */; };
+		5CCFDDD7D762BF902FFE6DCB2A82052B /* UINavigationController+QDNavigationBarHidden.h in Headers */ = {isa = PBXBuildFile; fileRef = C7E59F9F8E1935CCCAD1CC06DDDFB494 /* UINavigationController+QDNavigationBarHidden.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6EA2D52AF5CF4AF83076EE4F045F0243 /* Pods-QDNavigationBarHiddenHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35C14613B8A3915B0FC966063A5EA688 /* Pods-QDNavigationBarHiddenHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90E5BB64354FEA43BB24BD500B5DA113 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		755C372641CB0755FB65B76E11B27E76 /* UIViewController+QDNavigationBarHidden.m in Sources */ = {isa = PBXBuildFile; fileRef = F11FD4FB75D96AF9D55043B760D328BA /* UIViewController+QDNavigationBarHidden.m */; };
+		90E5BB64354FEA43BB24BD500B5DA113 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		946F1CB7209E83BE4F98E1828DBCB1CC /* UIViewController+QDNavigationBarHidden.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C1E577B34EDD942FE221656F847CD4 /* UIViewController+QDNavigationBarHidden.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A690A81E910979C521C6E5639E6B2708 /* Pods-QDNavigationBarHiddenHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A460967A180FDFE90102A528215C9C2B /* Pods-QDNavigationBarHiddenHelper_Tests-dummy.m */; };
+		BD505F02F63F49BBBCDC82134E968179 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
 		C5ADEAEEA52062F15F75D5C929D0B37D /* Pods-QDNavigationBarHiddenHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D40E78BD7709F7D5D89CBBFDDA03F39 /* Pods-QDNavigationBarHiddenHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C60F7F9F52852F01FC88286309FB8F09 /* QDNavigationBarHiddenHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7E26E02EF9285A2D039A94178AFA5B /* QDNavigationBarHiddenHelper-dummy.m */; };
-		DBCDF13C77F306F397AEA41B66613BCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		DBCDF13C77F306F397AEA41B66613BCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		E6F372935606E7F4AD8909B889D0F3E7 /* QDNavigationBarHiddenHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DF7370E40A1C9F1C44247B489A907DE0 /* QDNavigationBarHiddenHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E95C3E73DF2D522FF148B0A57F3E36F9 /* QDNavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 758B564731C338AC2227B35517D79618 /* QDNavigationControllerDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,46 +47,54 @@
 		053AD181419D07739D3633D29D17DDA0 /* Pods-QDNavigationBarHiddenHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QDNavigationBarHiddenHelper_Tests.modulemap"; sourceTree = "<group>"; };
 		08826712181633D17BC2FC5CDE1A6ABB /* Pods-QDNavigationBarHiddenHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QDNavigationBarHiddenHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0D0027958C152A4D0C991026FA04E004 /* Pods-QDNavigationBarHiddenHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QDNavigationBarHiddenHelper_Example.modulemap"; sourceTree = "<group>"; };
-		0D1D47545BE291AB5EA2DEA2719FD3DA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		0D40E78BD7709F7D5D89CBBFDDA03F39 /* Pods-QDNavigationBarHiddenHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QDNavigationBarHiddenHelper_Example-umbrella.h"; sourceTree = "<group>"; };
+		107FE7FDC63E584AB3F737EB6D5B87D5 /* QDNavigationBarHiddenHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = QDNavigationBarHiddenHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		145972BB4CC6A1C29626FDF456B03475 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1D0BCED61279E0158F80B7EE26B368A4 /* Pods-QDNavigationBarHiddenHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QDNavigationBarHiddenHelper_Example-dummy.m"; sourceTree = "<group>"; };
 		1EB8C69A18ABF9D618A72B594928214B /* Pods-QDNavigationBarHiddenHelper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QDNavigationBarHiddenHelper_Example-frameworks.sh"; sourceTree = "<group>"; };
 		27503670E476F6514C2DCEB35066ED25 /* Pods-QDNavigationBarHiddenHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QDNavigationBarHiddenHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2E35FEAC33396E48B57B621BB0F348D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		34BED7A1A00539F73848F2ED13E857A4 /* QDNavigationBarHiddenHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QDNavigationBarHiddenHelper.framework; path = QDNavigationBarHiddenHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3529795247634D447EB05BC12452DE76 /* QDNavigationBarHiddenHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QDNavigationBarHiddenHelper-prefix.pch"; sourceTree = "<group>"; };
 		35C14613B8A3915B0FC966063A5EA688 /* Pods-QDNavigationBarHiddenHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QDNavigationBarHiddenHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
-		440C3A59181BBE36493D4703977DC5B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		4BB1AFA4729AAA0039572ACDD9828646 /* QDNavigationBarHiddenHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QDNavigationBarHiddenHelper.xcconfig; sourceTree = "<group>"; };
-		51E1A239DF22D4565EFF9F30F1320007 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = QDNavigationBarHiddenHelper/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		57FF783DBB2442BD42CD28992F9836DB /* QDNavigationBarHiddenHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QDNavigationBarHiddenHelper-umbrella.h"; sourceTree = "<group>"; };
-		7D9FFFBCFC1156C1B017A24524B6DB3B /* QDNavigationBarHiddenHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = QDNavigationBarHiddenHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		73E91AC83F50959104097C19E029D3B6 /* QDNavigationControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QDNavigationControllerDelegate.h; sourceTree = "<group>"; };
+		74E404AA6957590324067E330E0EC533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7569EC0D4E65D7E81B559C65CDB8D1EB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		758B564731C338AC2227B35517D79618 /* QDNavigationControllerDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = QDNavigationControllerDelegate.m; sourceTree = "<group>"; };
+		7BA03A00EE572DE7545487A9777625F6 /* QDNavigationBarHiddenHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QDNavigationBarHiddenHelper-dummy.m"; sourceTree = "<group>"; };
 		7E6D4CB9D50483EC8191143C46312AE0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8914AFC69101A14142723E74D69A17D4 /* QDNavigationBarHiddenHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QDNavigationBarHiddenHelper-prefix.pch"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9631F81239FA3EDED67804312EF3412B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A460967A180FDFE90102A528215C9C2B /* Pods-QDNavigationBarHiddenHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QDNavigationBarHiddenHelper_Tests-dummy.m"; sourceTree = "<group>"; };
+		A5C1E577B34EDD942FE221656F847CD4 /* UIViewController+QDNavigationBarHidden.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+QDNavigationBarHidden.h"; sourceTree = "<group>"; };
 		A7C602FD0DBA74C13E761159C91D37EB /* Pods-QDNavigationBarHiddenHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QDNavigationBarHiddenHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A9603B6DA9C2A7F3CE7AAB0B9E7D704A /* Pods-QDNavigationBarHiddenHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QDNavigationBarHiddenHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AA4D0EA9FC4E08A6A9BB5C35DEC05F09 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = QDNavigationBarHiddenHelper/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		AAC06230986D8BC49C77693256CAF60B /* QDNavigationBarHiddenHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QDNavigationBarHiddenHelper.modulemap; sourceTree = "<group>"; };
 		AEB36998B68884A22DABD07F21D16BA5 /* Pods-QDNavigationBarHiddenHelper_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QDNavigationBarHiddenHelper_Example-resources.sh"; sourceTree = "<group>"; };
 		B6208620A336DDAEBE4377D6A4B4992B /* Pods-QDNavigationBarHiddenHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QDNavigationBarHiddenHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BC74E0F1CF088F0DC89162918DC14FB7 /* Pods-QDNavigationBarHiddenHelper_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QDNavigationBarHiddenHelper_Tests-resources.sh"; sourceTree = "<group>"; };
-		C0AD14DE7B5733DEC911C9CA02EECAC7 /* QDNavigationBarHiddenHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QDNavigationBarHiddenHelper.modulemap; sourceTree = "<group>"; };
+		C56E17EC2B59286A6F9EE73D98A7209F /* QDNavigationBarHiddenHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QDNavigationBarHiddenHelper.xcconfig; sourceTree = "<group>"; };
 		C692CF3612385060CD16844B5AF75BFC /* Pods-QDNavigationBarHiddenHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QDNavigationBarHiddenHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C6943B6B5CF4131C39D24153669FF331 /* Pods-QDNavigationBarHiddenHelper_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QDNavigationBarHiddenHelper_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		C7C35DC68474122AE3300042B4BE6293 /* Pods-QDNavigationBarHiddenHelper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QDNavigationBarHiddenHelper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C7E59F9F8E1935CCCAD1CC06DDDFB494 /* UINavigationController+QDNavigationBarHidden.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+QDNavigationBarHidden.h"; sourceTree = "<group>"; };
 		CDD0B9948DD253680B0DC946AC3330AB /* Pods_QDNavigationBarHiddenHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QDNavigationBarHiddenHelper_Tests.framework; path = "Pods-QDNavigationBarHiddenHelper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE424990BDEE6D0A6860F833B78E175C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DF7E26E02EF9285A2D039A94178AFA5B /* QDNavigationBarHiddenHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QDNavigationBarHiddenHelper-dummy.m"; sourceTree = "<group>"; };
+		DF7370E40A1C9F1C44247B489A907DE0 /* QDNavigationBarHiddenHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QDNavigationBarHiddenHelper-umbrella.h"; sourceTree = "<group>"; };
+		E4D6B48AAAD6EF1553E9E33B24B2C3C1 /* UINavigationController+QDNavigationBarHidden.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+QDNavigationBarHidden.m"; sourceTree = "<group>"; };
 		E7C3D56038B1C0266036FDA52E9DC8F2 /* Pods_QDNavigationBarHiddenHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QDNavigationBarHiddenHelper_Example.framework; path = "Pods-QDNavigationBarHiddenHelper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F11FD4FB75D96AF9D55043B760D328BA /* UIViewController+QDNavigationBarHidden.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+QDNavigationBarHidden.m"; sourceTree = "<group>"; };
 		F350A94B50ABA97A980D46FA3A329F05 /* Pods-QDNavigationBarHiddenHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QDNavigationBarHiddenHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0CDE0F9B7567343822824E1F2A4A8F42 /* Frameworks */ = {
+		0D6AB087ED9781A713231DF090484856 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BC6032C849673B432084C896550E4E6 /* Foundation.framework in Frameworks */,
+				BD505F02F63F49BBBCDC82134E968179 /* Foundation.framework in Frameworks */,
+				0BC8DA8AD3093A09C8153DF8EDDBFFEE /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,12 +127,41 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+		06CDD10DE71306278CF89108B3036DFD /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+				2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */,
+				74E404AA6957590324067E330E0EC533 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		0D0855C7BB728C02DF8497F0EA5982AD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12DEAE84A8B432570140A36AC6F34D03 /* QDNavigationBarHiddenHelper */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		12DEAE84A8B432570140A36AC6F34D03 /* QDNavigationBarHiddenHelper */ = {
+			isa = PBXGroup;
+			children = (
+				AA4D0EA9FC4E08A6A9BB5C35DEC05F09 /* ReplaceMe.m */,
+				F20DDA314AEDC8DDF71A2176A83AA105 /* Pod */,
+				A1EF604A5C586C269FA968E78BB5054E /* QDNavigationController */,
+				871C51DF4DBE5E7B914450D7219FB0C0 /* Support Files */,
+			);
+			name = QDNavigationBarHiddenHelper;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06CDD10DE71306278CF89108B3036DFD /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		522CC2A3935A22986FE1619AF06BF3DD /* Targets Support Files */ = {
@@ -129,66 +173,52 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7545737EDC6D951974BF6734400EA5F3 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D395CB1544F4EF9212925447EC47D8E9 /* QDNavigationBarHiddenHelper */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				7545737EDC6D951974BF6734400EA5F3 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0D0855C7BB728C02DF8497F0EA5982AD /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				05DCB804F8C2C18DD8D51232B58243FE /* Products */,
 				522CC2A3935A22986FE1619AF06BF3DD /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		ADB69155B015840601903BF70FC157ED /* Support Files */ = {
+		871C51DF4DBE5E7B914450D7219FB0C0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CE424990BDEE6D0A6860F833B78E175C /* Info.plist */,
-				C0AD14DE7B5733DEC911C9CA02EECAC7 /* QDNavigationBarHiddenHelper.modulemap */,
-				4BB1AFA4729AAA0039572ACDD9828646 /* QDNavigationBarHiddenHelper.xcconfig */,
-				DF7E26E02EF9285A2D039A94178AFA5B /* QDNavigationBarHiddenHelper-dummy.m */,
-				8914AFC69101A14142723E74D69A17D4 /* QDNavigationBarHiddenHelper-prefix.pch */,
-				57FF783DBB2442BD42CD28992F9836DB /* QDNavigationBarHiddenHelper-umbrella.h */,
+				7569EC0D4E65D7E81B559C65CDB8D1EB /* Info.plist */,
+				AAC06230986D8BC49C77693256CAF60B /* QDNavigationBarHiddenHelper.modulemap */,
+				C56E17EC2B59286A6F9EE73D98A7209F /* QDNavigationBarHiddenHelper.xcconfig */,
+				7BA03A00EE572DE7545487A9777625F6 /* QDNavigationBarHiddenHelper-dummy.m */,
+				3529795247634D447EB05BC12452DE76 /* QDNavigationBarHiddenHelper-prefix.pch */,
+				DF7370E40A1C9F1C44247B489A907DE0 /* QDNavigationBarHiddenHelper-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/QDNavigationBarHiddenHelper";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		A1EF604A5C586C269FA968E78BB5054E /* QDNavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				44D5347904CF754D6785B84253F2574A /* iOS */,
+				CF179765C8FD0FAB0B8A933561F0DA27 /* hidden */,
 			);
-			name = Frameworks;
+			name = QDNavigationController;
+			path = QDNavigationBarHiddenHelper/Classes/QDNavigationController;
 			sourceTree = "<group>";
 		};
-		CF7D08E0A0EE21354699AE13DC4FA6FF /* Pod */ = {
+		CF179765C8FD0FAB0B8A933561F0DA27 /* hidden */ = {
 			isa = PBXGroup;
 			children = (
-				440C3A59181BBE36493D4703977DC5B4 /* LICENSE */,
-				7D9FFFBCFC1156C1B017A24524B6DB3B /* QDNavigationBarHiddenHelper.podspec */,
-				0D1D47545BE291AB5EA2DEA2719FD3DA /* README.md */,
+				73E91AC83F50959104097C19E029D3B6 /* QDNavigationControllerDelegate.h */,
+				758B564731C338AC2227B35517D79618 /* QDNavigationControllerDelegate.m */,
+				C7E59F9F8E1935CCCAD1CC06DDDFB494 /* UINavigationController+QDNavigationBarHidden.h */,
+				E4D6B48AAAD6EF1553E9E33B24B2C3C1 /* UINavigationController+QDNavigationBarHidden.m */,
+				A5C1E577B34EDD942FE221656F847CD4 /* UIViewController+QDNavigationBarHidden.h */,
+				F11FD4FB75D96AF9D55043B760D328BA /* UIViewController+QDNavigationBarHidden.m */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		D395CB1544F4EF9212925447EC47D8E9 /* QDNavigationBarHiddenHelper */ = {
-			isa = PBXGroup;
-			children = (
-				51E1A239DF22D4565EFF9F30F1320007 /* ReplaceMe.m */,
-				CF7D08E0A0EE21354699AE13DC4FA6FF /* Pod */,
-				ADB69155B015840601903BF70FC157ED /* Support Files */,
-			);
-			name = QDNavigationBarHiddenHelper;
-			path = ../..;
+			name = hidden;
+			path = hidden;
 			sourceTree = "<group>";
 		};
 		E2DEF186A64DA7ED86E1BFB211D3B97E /* Pods-QDNavigationBarHiddenHelper_Example */ = {
@@ -207,6 +237,16 @@
 			);
 			name = "Pods-QDNavigationBarHiddenHelper_Example";
 			path = "Target Support Files/Pods-QDNavigationBarHiddenHelper_Example";
+			sourceTree = "<group>";
+		};
+		F20DDA314AEDC8DDF71A2176A83AA105 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2E35FEAC33396E48B57B621BB0F348D6 /* LICENSE */,
+				107FE7FDC63E584AB3F737EB6D5B87D5 /* QDNavigationBarHiddenHelper.podspec */,
+				145972BB4CC6A1C29626FDF456B03475 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		F6F7997E272EA2B386C300970689BA49 /* Pods-QDNavigationBarHiddenHelper_Tests */ = {
@@ -230,14 +270,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		48D69BF0654C99959A81CE1CFAFA9030 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				15EAA07F6D41CAC980A71DF6222699AF /* QDNavigationBarHiddenHelper-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		ACDEAAEEA4ED27E260225F963412C116 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -251,6 +283,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5ADEAEEA52062F15F75D5C929D0B37D /* Pods-QDNavigationBarHiddenHelper_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE098BF124A1CB1C908118BF3A4FF365 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F372935606E7F4AD8909B889D0F3E7 /* QDNavigationBarHiddenHelper-umbrella.h in Headers */,
+				40E8CD072318DE2E3616CEDB633844BB /* QDNavigationControllerDelegate.h in Headers */,
+				5CCFDDD7D762BF902FFE6DCB2A82052B /* UINavigationController+QDNavigationBarHidden.h in Headers */,
+				946F1CB7209E83BE4F98E1828DBCB1CC /* UIViewController+QDNavigationBarHidden.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +323,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6E6389259D7D658EE32118514E62F57 /* Build configuration list for PBXNativeTarget "QDNavigationBarHiddenHelper" */;
 			buildPhases = (
-				48D69BF0654C99959A81CE1CFAFA9030 /* Headers */,
-				304AAC3A2883A17F426A4E581DEAC0C2 /* Sources */,
-				0CDE0F9B7567343822824E1F2A4A8F42 /* Frameworks */,
+				CE098BF124A1CB1C908118BF3A4FF365 /* Headers */,
+				890A46F1D286BCA0696D12C366024418 /* Sources */,
+				0D6AB087ED9781A713231DF090484856 /* Frameworks */,
 				56353A48AEE4118B8E4E7066D2E129FB /* Resources */,
 			);
 			buildRules = (
@@ -366,15 +409,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		304AAC3A2883A17F426A4E581DEAC0C2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C60F7F9F52852F01FC88286309FB8F09 /* QDNavigationBarHiddenHelper-dummy.m in Sources */,
-				299AD6AE26E61C6E1099A7C622D3532D /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		50A0F14A86AEE9489D2C8798F851E2D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -388,6 +422,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				435324194266A53E327606D56A099E66 /* Pods-QDNavigationBarHiddenHelper_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		890A46F1D286BCA0696D12C366024418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D5C2BA9342615D7E35FB5EDDBBE2F5D /* QDNavigationBarHiddenHelper-dummy.m in Sources */,
+				E95C3E73DF2D522FF148B0A57F3E36F9 /* QDNavigationControllerDelegate.m in Sources */,
+				56EE190560928F35FEC95A7314289E19 /* ReplaceMe.m in Sources */,
+				16A3375DB7E6B8F53FF466FC3A4AB84D /* UINavigationController+QDNavigationBarHidden.m in Sources */,
+				755C372641CB0755FB65B76E11B27E76 /* UIViewController+QDNavigationBarHidden.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +457,7 @@
 /* Begin XCBuildConfiguration section */
 		0F13C56D338B97203C186FAEE1F79993 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BB1AFA4729AAA0039572ACDD9828646 /* QDNavigationBarHiddenHelper.xcconfig */;
+			baseConfigurationReference = C56E17EC2B59286A6F9EE73D98A7209F /* QDNavigationBarHiddenHelper.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -508,7 +554,7 @@
 		};
 		6E45265FB24B0408AF6B438A15126F48 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BB1AFA4729AAA0039572ACDD9828646 /* QDNavigationBarHiddenHelper.xcconfig */;
+			baseConfigurationReference = C56E17EC2B59286A6F9EE73D98A7209F /* QDNavigationBarHiddenHelper.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
