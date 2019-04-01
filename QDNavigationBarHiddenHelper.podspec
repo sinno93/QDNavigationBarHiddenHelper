@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QDNavigationBarHiddenHelper'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '一个帮助处理导航栏显示或隐藏状态的工具'
 
 # This description is used to generate tags and improve search results.
