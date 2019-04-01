@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'QDNavigationBarHiddenHelper'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of QDNavigationBarHiddenHelper.'
+  s.summary          = '一个帮助处理导航栏显示或隐藏状态的工具'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  一个帮助处理导航栏显示或隐藏状态的工具;欢迎给我提issue
                        DESC
 
   s.homepage         = 'https://github.com/sinno93/QDNavigationBarHiddenHelper'
