@@ -36,13 +36,23 @@
                         <action selector="pushToControllerWithoutNavigationBarAction:" destination="-1" eventType="touchUpInside" id="5EN-VQ-Yz6"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3KJ-Xb-960">
+                    <rect key="frame" x="136" y="582" width="103" height="30"/>
+                    <color key="backgroundColor" red="1" green="0.60927272070000005" blue="0.51398612560000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="pop到上一页面"/>
+                    <connections>
+                        <action selector="pop:" destination="-1" eventType="touchUpInside" id="Hiw-H5-nBT"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="3KJ-Xb-960" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="91H-6f-jQ9"/>
                 <constraint firstItem="2kN-fb-53d" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="K0b-Al-Shu"/>
                 <constraint firstItem="Ase-OJ-29B" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="O4E-K6-z5c"/>
                 <constraint firstItem="Ase-OJ-29B" firstAttribute="top" secondItem="2kN-fb-53d" secondAttribute="bottom" constant="32.5" id="WXd-b7-Taf"/>
                 <constraint firstItem="2kN-fb-53d" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="XDQ-3R-NS8"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="3KJ-Xb-960" secondAttribute="bottom" constant="55" id="qP7-Kh-6je"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
         </view>

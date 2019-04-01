@@ -35,5 +35,10 @@
     controller.qd_navigationBarHidden = YES;
     [self.navigationController pushViewController:controller animated:YES];
 }
+- (IBAction)pop:(id)sender {
+    if (self.navigationController.viewControllers.count > 1) {
+        [self.navigationController popViewControllerAnimated:YES];
+    }
+}
 
 @end
