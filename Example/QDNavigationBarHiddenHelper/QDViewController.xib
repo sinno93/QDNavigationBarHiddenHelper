@@ -44,6 +44,10 @@
                         <action selector="pop:" destination="-1" eventType="touchUpInside" id="Hiw-H5-nBT"/>
                     </connections>
                 </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="staff_1024.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hND-R3-hU0">
+                    <rect key="frame" x="76" y="147" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
@@ -57,4 +61,7 @@
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
         </view>
     </objects>
+    <resources>
+        <image name="staff_1024.jpg" width="1023" height="540"/>
+    </resources>
 </document>

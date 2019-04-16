@@ -1,5 +1,5 @@
 PODS:
-  - QDNavigationBarHiddenHelper (0.1.0)
+  - QDNavigationBarHiddenHelper (0.1.1)
 
 DEPENDENCIES:
   - QDNavigationBarHiddenHelper (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  QDNavigationBarHiddenHelper: 270224e956e89198a98fe8c9e3f8d953b521e77f
+  QDNavigationBarHiddenHelper: 4f89f0f936d0f1d986f385279b945598d6cd1fd8
 
-PODFILE CHECKSUM: fa18025be81d622089aa5c835645da442b36e4b9
+PODFILE CHECKSUM: a33d132a5f3d9f5d1c236112cf45ceec6887ac50
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1

@@ -1,8 +1,8 @@
 {
   "name": "QDNavigationBarHiddenHelper",
-  "version": "0.1.0",
-  "summary": "A short description of QDNavigationBarHiddenHelper.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.1",
+  "summary": "一个帮助处理导航栏显示或隐藏状态的工具",
+  "description": "一个帮助处理导航栏显示或隐藏状态的工具;欢迎给我提issue",
   "homepage": "https://github.com/sinno93/QDNavigationBarHiddenHelper",
   "license": {
     "type": "MIT",
@@ -13,13 +13,18 @@
   },
   "source": {
     "git": "https://github.com/sinno93/QDNavigationBarHiddenHelper.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "QDNavigationBarHiddenHelper/Classes/**/*",
   "requires_arc": true,
+  "resource_bundles": {
+    "bundle_name_abc": [
+      "QDNavigationBarHiddenHelper/Assets/*"
+    ]
+  },
   "frameworks": "UIKit",
   "pod_target_xcconfig": {
     "OTHER_LDFLAGS": "-all_load"

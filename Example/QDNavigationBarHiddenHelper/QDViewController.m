@@ -7,7 +7,10 @@
 //
 
 #import "QDViewController.h"
-#import <QDNavigationBarHiddenHelper/QDNavigationBarHiddenHelper-umbrella.h>
+//#import <QDNavigationBarHiddenHelper/QDNavigationBarHiddenHelper-umbrella.h>
+#import <QDNavigationBarHiddenHelper/UIViewController+QDNavigationBarHidden.h>
+#import <QDNavigationBarHiddenHelper/UINavigationController+QDNavigationBarHidden.h>
+#import <QDNavigationBarHiddenHelper/QDNavigationImageManager.h>
 @interface QDViewController ()
 
 
@@ -18,7 +21,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationController.qd_navigationBarHiddenHelperEnabled = YES;
-    self.title = @"导航栏";
+    self.title = NSLocalizedString(@"LOCAL_TEST", @"");
+    self.title = NSLocalizedStringFromTable(@"LOCAL_TEST", @"local", @"");
+    [NSBundle.mainBundle localizedStringForKey:@"" value:@"" table:@""];
+    [QDNavigationImageManager imageWithName:@"TestImage"];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

@@ -11,6 +11,7 @@
 #endif
 
 #import "QDNavigationControllerDelegate.h"
+#import "QDNavigationImageManager.h"
 #import "UINavigationController+QDNavigationBarHidden.h"
 #import "UIViewController+QDNavigationBarHidden.h"
 
