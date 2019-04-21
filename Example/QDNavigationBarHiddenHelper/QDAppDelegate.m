@@ -14,12 +14,6 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    NSBundle *mainB = [NSBundle mainBundle];
-    NSLog(@"%@",mainB);
-    for (int i =0; i<1000*100000; i++) {
-        i ++;
-    }
-    return YES;
     self.window = [[UIWindow alloc] init];
     self.window.backgroundColor = UIColor.grayColor;
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:[[QDViewController alloc] init]];

@@ -32,10 +32,6 @@ Pod::Spec.new do |s|
 
   s.source_files = 'QDNavigationBarHiddenHelper/Classes/**/*'
   s.requires_arc = true
-   s.resource_bundles = {
-     'bundle_name_abc' => ['QDNavigationBarHiddenHelper/Assets/*']
-   }
-#  s.resources = ['QDNavigationBarHiddenHelper/Assets/*']
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit'
    s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-all_load' }

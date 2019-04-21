@@ -7,16 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		412FE03B226CC99400827367 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 412FE03A226CC99400827367 /* Launch Screen.storyboard */; };
 		4140332C22494B0500EC3D89 /* QDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4140332B22494B0500EC3D89 /* QDViewController.xib */; };
-		4156C5C522636CAB005A686E /* local.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4156C5C722636CAB005A686E /* local.strings */; };
-		4156C5CF226383FB005A686E /* staff_1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4156C5D1226383FB005A686E /* staff_1024.jpg */; };
-		4156C5D52263884E005A686E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4156C5D72263884E005A686E /* Main.storyboard */; };
-		4156C5E122638B8D005A686E /* LaunchScreen_en.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4156C5DF22638B8D005A686E /* LaunchScreen_en.storyboard */; };
-		4156C5EA22638DB7005A686E /* LaunchScreen_zh.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4156C5E822638DB7005A686E /* LaunchScreen_zh.storyboard */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* QDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* QDAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* QDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* QDViewController.m */; };
@@ -27,7 +22,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		667D4E8BDFEEE57D91891E15 /* libPods-QDNavigationBarHiddenHelper_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD51F042E92D597BAB2D309 /* libPods-QDNavigationBarHiddenHelper_Tests.a */; };
-		71719F9F1E33DC2100824A3D /* LaunchScreen_base.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen_base.storyboard */; };
 		A25FD5DD4EEF420AB93EC912 /* libPods-QDNavigationBarHiddenHelper_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8379A996887A3727DDE49DD9 /* libPods-QDNavigationBarHiddenHelper_Example.a */; };
 /* End PBXBuildFile section */
 
@@ -44,26 +38,15 @@
 /* Begin PBXFileReference section */
 		25AE9A6AE99E1BBBE0B656A5 /* Pods-QDNavigationBarHiddenHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QDNavigationBarHiddenHelper_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-QDNavigationBarHiddenHelper_Example/Pods-QDNavigationBarHiddenHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		29381409441954143A72B703 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		412FE03A226CC99400827367 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		4140332B22494B0500EC3D89 /* QDViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDViewController.xib; sourceTree = "<group>"; };
-		4156C5C12263688A005A686E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		4156C5C22263688B005A686E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		4156C5C622636CAB005A686E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/local.strings; sourceTree = "<group>"; };
-		4156C5C822636CAF005A686E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/local.strings"; sourceTree = "<group>"; };
-		4156C5D0226383FB005A686E /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Base; path = Base.lproj/staff_1024.jpg; sourceTree = "<group>"; };
-		4156C5D2226383FF005A686E /* en */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = en; path = en.lproj/staff_1024.jpg; sourceTree = "<group>"; };
-		4156C5D322638405005A686E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "zh-Hans"; path = "zh-Hans.lproj/staff_1024.jpg"; sourceTree = "<group>"; };
-		4156C5D62263884E005A686E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4156C5DC22638857005A686E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4156C5DD2263885B005A686E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/Main.storyboard"; sourceTree = "<group>"; };
-		4156C5E522638D2D005A686E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen_en.storyboard; sourceTree = "<group>"; };
-		4156C5EB22638DC3005A686E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen_zh.storyboard; sourceTree = "<group>"; };
 		546169311E983FEAEBD97713 /* Pods-QDNavigationBarHiddenHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QDNavigationBarHiddenHelper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QDNavigationBarHiddenHelper_Example/Pods-QDNavigationBarHiddenHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* QDNavigationBarHiddenHelper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QDNavigationBarHiddenHelper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6003F595195388D20070C39A /* QDNavigationBarHiddenHelper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QDNavigationBarHiddenHelper-Info.plist"; sourceTree = "<group>"; };
-		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* QDNavigationBarHiddenHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QDNavigationBarHiddenHelper-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* QDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDAppDelegate.h; sourceTree = "<group>"; };
@@ -77,7 +60,6 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen_base.storyboard; sourceTree = "<group>"; };
 		8379A996887A3727DDE49DD9 /* libPods-QDNavigationBarHiddenHelper_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QDNavigationBarHiddenHelper_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA302D18D41247DE9EEAAB79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CFF32D81D326A4DFAE50A5A4 /* Pods-QDNavigationBarHiddenHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QDNavigationBarHiddenHelper_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QDNavigationBarHiddenHelper_Tests/Pods-QDNavigationBarHiddenHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -160,18 +142,14 @@
 		6003F593195388D20070C39A /* Example for QDNavigationBarHiddenHelper */ = {
 			isa = PBXGroup;
 			children = (
-				4156C5E822638DB7005A686E /* LaunchScreen_zh.storyboard */,
-				4156C5DF22638B8D005A686E /* LaunchScreen_en.storyboard */,
-				4156C5D1226383FB005A686E /* staff_1024.jpg */,
 				6003F59C195388D20070C39A /* QDAppDelegate.h */,
 				6003F59D195388D20070C39A /* QDAppDelegate.m */,
-				4156C5D72263884E005A686E /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* QDViewController.h */,
 				6003F5A6195388D20070C39A /* QDViewController.m */,
 				4140332B22494B0500EC3D89 /* QDViewController.xib */,
-				71719F9D1E33DC2100824A3D /* LaunchScreen_base.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				412FE03A226CC99400827367 /* Launch Screen.storyboard */,
 			);
 			name = "Example for QDNavigationBarHiddenHelper";
 			path = QDNavigationBarHiddenHelper;
@@ -181,10 +159,8 @@
 			isa = PBXGroup;
 			children = (
 				6003F595195388D20070C39A /* QDNavigationBarHiddenHelper-Info.plist */,
-				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
 				6003F59B195388D20070C39A /* QDNavigationBarHiddenHelper-Prefix.pch */,
-				4156C5C722636CAB005A686E /* local.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -229,7 +205,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				03EAD32093C9E2A9732A0B63 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -302,15 +277,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4156C5C522636CAB005A686E /* local.strings in Resources */,
 				4140332C22494B0500EC3D89 /* QDViewController.xib in Resources */,
-				4156C5D52263884E005A686E /* Main.storyboard in Resources */,
-				71719F9F1E33DC2100824A3D /* LaunchScreen_base.storyboard in Resources */,
-				4156C5CF226383FB005A686E /* staff_1024.jpg in Resources */,
+				412FE03B226CC99400827367 /* Launch Screen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				4156C5EA22638DB7005A686E /* LaunchScreen_zh.storyboard in Resources */,
-				4156C5E122638B8D005A686E /* LaunchScreen_en.storyboard in Resources */,
-				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,28 +294,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		03EAD32093C9E2A9732A0B63 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-QDNavigationBarHiddenHelper_Example/Pods-QDNavigationBarHiddenHelper_Example-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/QDNavigationBarHiddenHelper/bundle_name_abc.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bundle_name_abc.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QDNavigationBarHiddenHelper_Example/Pods-QDNavigationBarHiddenHelper_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		3B826F5CC45BE7567B335107 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -423,61 +370,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4156C5C722636CAB005A686E /* local.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4156C5C622636CAB005A686E /* en */,
-				4156C5C822636CAF005A686E /* zh-Hans */,
-			);
-			name = local.strings;
-			sourceTree = "<group>";
-		};
-		4156C5D1226383FB005A686E /* staff_1024.jpg */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4156C5D0226383FB005A686E /* Base */,
-				4156C5D2226383FF005A686E /* en */,
-				4156C5D322638405005A686E /* zh-Hans */,
-			);
-			name = staff_1024.jpg;
-			sourceTree = "<group>";
-		};
-		4156C5D72263884E005A686E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4156C5D62263884E005A686E /* Base */,
-				4156C5DC22638857005A686E /* en */,
-				4156C5DD2263885B005A686E /* zh-Hans */,
-			);
-			name = Main.storyboard;
-			path = Base.lproj;
-			sourceTree = "<group>";
-		};
-		4156C5DF22638B8D005A686E /* LaunchScreen_en.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4156C5E522638D2D005A686E /* Base */,
-			);
-			name = LaunchScreen_en.storyboard;
-			sourceTree = "<group>";
-		};
-		4156C5E822638DB7005A686E /* LaunchScreen_zh.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4156C5EB22638DC3005A686E /* Base */,
-			);
-			name = LaunchScreen_zh.storyboard;
-			sourceTree = "<group>";
-		};
-		6003F596195388D20070C39A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6003F597195388D20070C39A /* en */,
-				4156C5C12263688A005A686E /* zh-Hans */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -485,14 +377,6 @@
 				4156C5C22263688B005A686E /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		71719F9D1E33DC2100824A3D /* LaunchScreen_base.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				71719F9E1E33DC2100824A3D /* Base */,
-			);
-			name = LaunchScreen_base.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

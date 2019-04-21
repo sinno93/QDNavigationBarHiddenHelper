@@ -1,4 +1,0 @@
-/* Localized versions of Info.plist keys */
-"CFBundleDisplayName" = "ENGName";
-"test1"="test number 1";
-"UILaunchStoryboardName"="LaunchScreen_en";

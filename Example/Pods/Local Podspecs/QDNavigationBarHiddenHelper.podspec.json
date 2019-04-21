@@ -20,11 +20,6 @@
   },
   "source_files": "QDNavigationBarHiddenHelper/Classes/**/*",
   "requires_arc": true,
-  "resource_bundles": {
-    "bundle_name_abc": [
-      "QDNavigationBarHiddenHelper/Assets/*"
-    ]
-  },
   "frameworks": "UIKit",
   "pod_target_xcconfig": {
     "OTHER_LDFLAGS": "-all_load"

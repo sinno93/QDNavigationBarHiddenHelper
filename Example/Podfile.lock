@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  QDNavigationBarHiddenHelper: 4f89f0f936d0f1d986f385279b945598d6cd1fd8
+  QDNavigationBarHiddenHelper: f47cdf2baa21b7b061cce84bdaaf2f968b00e392
 
 PODFILE CHECKSUM: a33d132a5f3d9f5d1c236112cf45ceec6887ac50
 

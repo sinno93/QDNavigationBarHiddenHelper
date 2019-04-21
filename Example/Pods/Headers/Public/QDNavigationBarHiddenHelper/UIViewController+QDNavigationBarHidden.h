@@ -1,1 +1,1 @@
-../../../../../QDNavigationBarHiddenHelper/Classes/QDNavigationController/hidden/UIViewController+QDNavigationBarHidden.h
+../../../../../QDNavigationBarHiddenHelper/Classes/UIViewController+QDNavigationBarHidden.h

@@ -1,1 +1,0 @@
-../../../../../QDNavigationBarHiddenHelper/Classes/QDNavigationController/hidden/QDNavigationImageManager.h

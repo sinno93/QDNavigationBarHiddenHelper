@@ -1,1 +1,1 @@
-../../../../../QDNavigationBarHiddenHelper/Classes/QDNavigationController/hidden/QDNavigationControllerDelegate.h
+../../../../../QDNavigationBarHiddenHelper/Classes/QDNavigationControllerDelegate.h
